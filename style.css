@@ -16,7 +16,7 @@ body{
 
 .illustration{
     border-radius: 10px 10px 0px 0px;
-    width: 400px;
+    width: 100%;
 }
 
 .order{
@@ -25,22 +25,22 @@ body{
 }
 
 .music-icon{
-    
+
 }
 
 .annual{
-    
+    background-color: hsl(227, 36%, 95%);
 }
 
 button{
     background-color: hsl(223, 47%, 23%);
+    border-style: none;
     color: hsl(225, 100%, 98%);
     text-align: center;
     border-radius: 10%;
     padding: 10px;
     width: 300px;
     font-weight: 500;
-
 }
 
 .attribution { 
