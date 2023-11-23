@@ -4,14 +4,19 @@ body{
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+    
 }
 
 .container{
     margin: 0 auto;
     background-color: hsl(225, 100%, 98%);
-    width: 400px;
+    width: 25%;
     text-align: center;
     border-radius: 10px;
+}
+
+.inside-container{
+    padding: 20px;
 }
 
 .illustration{
@@ -19,31 +24,52 @@ body{
     width: 100%;
 }
 
-.order{
+h1{
     font-weight: 700;
-
-}
-
-.music-icon{
-
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
 }
 
 .annual{
     background-color: hsl(227, 36%, 95%);
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.music-icon{
+    float: left;
+
+}
+
+.change{
+    text-decoration: underline;
+    float: right;
+    font-size: 12px;
 }
 
 button{
-    background-color: hsl(223, 47%, 23%);
-    border-style: none;
-    color: hsl(225, 100%, 98%);
-    text-align: center;
-    border-radius: 10%;
-    padding: 10px;
-    width: 300px;
-    font-weight: 500;
+    background-color: blue;
+    border: 1px solid blue;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+.cancel{
+    color: grey;
+    padding: 5px;
+    font-size: 11px;
+    font-weight: 700;
 }
 
 .attribution { 
+    margin-top: 50px;
     font-size: 11px; 
     text-align: center; 
 }
